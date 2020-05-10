@@ -1,0 +1,34 @@
+:root{
+
+}
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+boby{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.menu{
+    background: rgb(17, 17, 22);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+}
+
+.menu a img{
+    margin-top: 5px;    
+}
