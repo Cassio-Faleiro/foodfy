@@ -1,5 +1,5 @@
 :root{
-
+    --color-white: rgb(172, 171, 175);
 }
 
 *{
@@ -8,27 +8,24 @@
     padding: 0px;
 }
 
-boby{
+body{
     font-family: 'Poppins', sans-serif;
-
+    background: rgb(25,25,25);
 }
 
-.menu{
-    background: rgb(17, 17, 22);
+header{
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px;
+    align-items: center;
+    padding: 20px;
 }
 
-.menu a{
-    color: white;
+.link{
+    color: var(--color-white);
     text-decoration: none;
+    padding: 10px;
     font-size: 18px;
     line-height: 28px;
-    margin: 0 16px;
-}
-
-.menu a img{
-    margin-top: 5px;    
+    margin: 5px;
 }
