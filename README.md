@@ -10,7 +10,7 @@
 
 <p align="center">
 
-  <a href="linkedin.com/in/cassio-faleiro ">
+  <a href="linkedin.com/in/cassio-faleiro/">
     <img alt="Made by Cássio Faleiro" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
   </a>
 
