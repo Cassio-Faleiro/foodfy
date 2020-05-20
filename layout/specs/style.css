@@ -1,5 +1,6 @@
 :root{
     --color-white: rgb(172, 171, 175);
+    --color-hover: #ff9800;
 }
 
 *{
@@ -10,7 +11,13 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: rgb(25,25,25);
+    width: 100%;
+    height: 100%;
+}
+
+.app{
+    height: 1192px;
+    background-image: linear-gradient(to bottom, #626262, #494949, #323232, #1c1c1c, #000000);
 }
 
 header{
@@ -28,4 +35,56 @@ header{
     font-size: 18px;
     line-height: 28px;
     margin: 5px;
+    display: inline-block;
+    padding: 12px 8px;
+    transition: 1s ease;
+}
+
+.link:hover{
+    color: var(--color-hover);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+
+
+.banner{
+    width: 940px;
+    height: 366px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 800px;
+    background: url(/layout/assets/burger.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    
+}
+
+.banner-text{
+    justify-self: center;
+    align-self: center;
+    padding: 60px;
+    color: #FFFFFF;
+}
+
+.banner-text h3{
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.banner-img{
+    height: 300px;
+    width: 216px;
+    align-self: end;
+    margin: 0 auto;
+}
+
+.banner-img img{
+    
 }
