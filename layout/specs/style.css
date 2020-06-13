@@ -1,6 +1,7 @@
 :root{
-    --color-white: rgb(172, 171, 175);
+    --color-menu: rgb(172, 171, 175);
     --color-hover: #ff9800;
+    --color-content: #FFFFFF;
 }
 
 *{
@@ -10,7 +11,7 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 100%;
 }
@@ -29,7 +30,7 @@ header{
 }
 
 .link{
-    color: var(--color-white);
+    color: var(--color-menu);
     text-decoration: none;
     padding: 10px;
     font-size: 18px;
@@ -68,12 +69,13 @@ header{
     justify-self: center;
     align-self: center;
     padding: 60px;
-    color: #FFFFFF;
+    color: var(--color-content);
 }
 
 .banner-text h3{
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     font-size: 25px;
     line-height: 35px;
 }
@@ -85,6 +87,43 @@ header{
     margin: 0 auto;
 }
 
-.banner-img img{
-    
+/*H3*/
+#wrapper h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--color-content);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px 10px;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+/*==RECEITAS==*/
+.recipes{
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.recipes__image-container img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.recipes__info{
+    color: var(--color-content);
+    font-family: 'Poppins ', sans-serif ;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.recipes__info .chef{
+    color: var(--color-content);
+    opacity: 0.5;
+    font-size: 14px;
+    line-height: 24px;
 }
