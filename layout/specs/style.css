@@ -117,13 +117,13 @@ header{
 .recipes__info{
     color: var(--color-content);
     font-family: 'Poppins ', sans-serif ;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .recipes__info .chef{
     color: var(--color-content);
     opacity: 0.5;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 13px;
+    line-height: 23px;
 }
