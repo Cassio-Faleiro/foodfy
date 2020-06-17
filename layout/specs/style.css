@@ -34,7 +34,7 @@ header{
 }
 
 .link{
-    color: var(--color-menu);
+    color: #111111;
     text-decoration: none;
     padding: 10px;
     font-size: 18px;
@@ -156,5 +156,3 @@ main p{
     line-height: 28px;
 
 }
-
-

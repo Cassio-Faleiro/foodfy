@@ -10,13 +10,11 @@
 
 <p align="center">
 
-<<<<<<< HEAD
   <a href="linkedin.com/in/cassio-faleiro/">
     <img alt="Made by Cássio Faleiro" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
-=======
+
   <a href="https://www.linkedin.com/in/cassio-faleiro/">
     <img alt="Made by Cássio Faleiro" src="https://img.shields.io/badge/made%20by-Cássio Faleiro-%23F8952D">
->>>>>>> 0f8a3aa7335a6a1fd21f61a889725306f8c3152e
   </a>
 
   <a href="LICENSE" >
