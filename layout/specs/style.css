@@ -104,7 +104,7 @@ header{
 
 }
 
-/*==RECEITAS==*/
+/*==RECEITAS TELA PRINCIPAL==*/
 .recipes{
     max-width: 800px;
     margin: 0 auto;
@@ -155,4 +155,19 @@ main p{
     font-size: 18px;
     line-height: 28px;
 
+}
+
+/*==RECEITAS==*/
+
+main, 
+.recipes-receps{
+    max-width: 800px;
+    margin:50px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px
+}
+
+.recipes__image-container img{
+    width: 100%;
 }
