@@ -205,8 +205,7 @@ main.receps-receps{
 /*==MODAL ACTIVE==*/
 
 .modal__overlay.active{
-    /*==Quando a class active for ativado, o opacity fica 1==*/
+    /*==Quando a class active for ativado, o opacity fica 1 e o visibity ativa==*/
     opacity: 1;
     visibility: visible;
-
 }
