@@ -179,6 +179,10 @@ main.receps-receps{
     height: 100%;
     position: fixed;
     top: 0;
+    /*opacity 0 faz o modal sumir*/
+    opacity: 0;
+    /*Escode todo o modal*/
+    visibility: hidden;
 }
 
 .modal{
@@ -187,4 +191,22 @@ main.receps-receps{
     height: 47%;
     margin: 30vh auto;
     border-radius: 16px;
+    position: relative;
+}
+
+.modal span{
+    color: black;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+/*==MODAL ACTIVE==*/
+
+.modal__overlay.active{
+    /*==Quando a class active for ativado, o opacity fica 1==*/
+    opacity: 1;
+    visibility: visible;
+
 }
