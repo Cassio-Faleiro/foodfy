@@ -187,25 +187,39 @@ main.receps-receps{
 
 .modal{
     background-color: white;
-    width: 36%;
-    height: 47%;
+    width: 45%;
+    height: 45%;
     margin: 30vh auto;
     border-radius: 16px;
     position: relative;
 }
 
+/*==BOTÃO CLOSE==
 .modal span{
     color: black;
     position: absolute;
     right: 5px;
     top: 5px;
     cursor: pointer;
-}
+}*/
 
 /*==MODAL ACTIVE==*/
-
 .modal__overlay.active{
     /*==Quando a class active for ativado, o opacity fica 1 e o visibity ativa==*/
     opacity: 1;
     visibility: visible;
 }
+
+.modal__content img{
+    width: 96%;
+    height: 60%;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+
+
