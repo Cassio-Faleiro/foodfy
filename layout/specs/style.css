@@ -53,8 +53,6 @@ header{
     transition: 0.5s ease;
 }
 
-
-
 .banner{
     width: 940px;
     height: 366px;
@@ -62,7 +60,7 @@ header{
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     max-width: 800px;
-    background: url(/layout/assets/burger.jpeg);
+    background: url(/layout/assets/burger.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -154,7 +152,6 @@ main h3{
 main p{
     font-size: 18px;
     line-height: 28px;
-
 }
 
 /*==RECEITAS==*/
@@ -171,6 +168,12 @@ main.receps-receps{
     width: 100%;
 }
 
+.recipes__name h4{
+    color: var(--color-content);
+    font-family: 'Poppins ', sans-serif ;
+    font-size: 15px;
+    line-height: 25px;
+}
 /*==MODAL==*/
 
 .modal__overlay{
@@ -207,19 +210,39 @@ main.receps-receps{
 .modal__overlay.active{
     /*==Quando a class active for ativado, o opacity fica 1 e o visibity ativa==*/
     opacity: 1;
-    visibility: visible;
+    visibility: visible;    
+}
+
+.modal__content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
 }
 
 .modal__content img{
-    width: 96%;
-    height: 60%;
-    position: absolute;
-    top: 5%;
-    left: 2%;
+    margin: 2% auto;
+    width: 95%;
+    height: 50%;
     border-radius: 15px;
-    overflow: hidden;
-
 }
 
+.p_content {
+    font-family: 'Poppins ', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    color: #111111;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.p_chef {
+    color: #777777;
+    font-family: 'Poppins ', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+}
 
 
