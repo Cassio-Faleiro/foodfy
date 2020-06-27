@@ -45,7 +45,7 @@ Acesse a pasta `layouts/assets` para obter todas imagens utilizadas no layout.
 1. Na página de receitas, quando o usuário clica em uma receita, um modal deve aparecer em tela contendo as mesmas informações da receita que ele clicou;
 
 ### Conclução do Desafio
-![gif da tela](https://github.com/Cassio-Faleiro/foodfy/tree/master/layout/assets/capTela.gif)
+![gif da tela](layout/assets/capTela.gif)
 
 ## :memo: Licença
 
